@@ -14,7 +14,7 @@ release = 'V0.0.3'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['recommonmark','sphinx_markdown_tables']
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -26,3 +26,8 @@ language = 'zh_CN'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+ extensions = [
+     'recommonmark',
+     'sphinx_markdown_tables'
+ ]
