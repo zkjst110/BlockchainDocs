@@ -14,7 +14,7 @@ release = 'V0.0.3'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ['recommonmark','sphinx_markdown_tables']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -26,8 +26,10 @@ language = 'zh_CN'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+# The suffix of source filenames.
+source_parsers = {
+	'.md': 'recommonmark.parser.CommonMarkParser',
+}
+source_suffix = ['.rst', '.md']
 
- extensions = [
-     'recommonmark',
-     'sphinx_markdown_tables'
- ]
+
