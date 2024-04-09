@@ -12,6 +12,8 @@
 
    test-docs-md.md
 
+   test-docs-rst.rst
+
 
 
 
