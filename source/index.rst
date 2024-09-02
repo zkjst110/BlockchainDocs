@@ -3,14 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to BlockchainDocs's documentation!
+BlockChain技术文档
 ==========================================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: 目录:
 
-   test-docs-md.md
+   lbaas/baas.md
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 共识算法:
+
+   consensus/solo.md
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 存储服务:
+
+   storage/introduction.md
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 权限管理:
+
+   permission/test-docs-md.md
 
 
 
