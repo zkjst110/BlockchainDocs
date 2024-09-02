@@ -33,7 +33,7 @@
 
 相比传统的BaaS平台，轻量级BaaS定位于联盟链可视化管理、运维工具，部署更迅速，功能更精简，使用更简单，后期管理维护更便捷。
 
-![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOLwo3eN8Nqpz2/img/ef47e3fa-c9cf-4331-8663-f0a24ef79f95.png)
+![image.png](../../images/baasarch.png)
 
 ## 4 产品特性
 
