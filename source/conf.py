@@ -9,7 +9,7 @@
 project = 'BlockchainDocs'
 copyright = '2024, Z'
 author = 'Z'
-release = 'V0.0.3'
+release = 'V0.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
